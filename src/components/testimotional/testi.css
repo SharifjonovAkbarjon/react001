@@ -1,0 +1,84 @@
+.testi__body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 200px;
+}
+
+.testi__tect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.test__p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+color: rgba(100, 100, 100, 1);
+}
+
+.testi__h2{
+    font-family: Poppins;
+font-size: 48px;
+font-weight: 600;
+line-height: 72px;
+color: rgba(33, 33, 33, 1);
+margin-top: -30px;
+}
+
+.testi__wrapper{
+    display: flex;
+    gap: 140px;
+}
+
+.test__collection{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+    border-radius: 70px 0;
+    padding: 41px 38px 60px 90px;
+}
+
+.test__collection:hover{
+    cursor: pointer;
+    background: rgba(202, 168, 146, 1);
+    transition: 2s;
+
+}
+
+.testi__h3{
+    font-family: Open Sans;
+font-size: 24px;
+font-weight: 800;
+line-height: 32.68px;
+
+}
+
+.testi_span{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.79px;
+color: rgba(100, 100, 100, 1);
+
+}
+
+.testi__parag{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+color: rgba(100, 100, 100, 1);
+margin-top: -20px;
+}
+
+.test__collection:hover,
+.test__collection:hover .testi__h3,
+.test__collection:hover .testi_span,
+.test__collection:hover .testi__parag {
+    color: white;
+}

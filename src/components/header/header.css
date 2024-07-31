@@ -1,0 +1,56 @@
+.header__body{
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.logo{
+    display: flex;
+}
+
+p{
+    color: rebeccapurple;
+    font-weight: 600;
+}
+
+.header{
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+
+}
+
+li{
+    font-size: 12px;
+    list-style: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: .7s;
+}
+
+li:hover{
+    cursor: pointer;
+    color: rgb(100,100,100);
+}
+
+button{
+    border: none;
+    height: 35px;
+    padding: 0 19px;
+    border-radius: 15px 0;
+    background: rgba(202, 168, 146, 1);
+    color: rgb(255,255,255);
+    transition: .7s;
+    font-size: 14px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+}

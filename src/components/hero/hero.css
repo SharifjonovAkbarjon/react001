@@ -1,0 +1,48 @@
+.hero__body {
+    display: flex;
+    align-items: center;
+    margin-top: 94px;
+    margin-bottom: 150px;
+    gap: 44px;
+}
+
+.hero__title {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.hero__heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__paragraph {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    color: rgba(100, 100, 100, 1);
+    margin-bottom: -20px;
+}
+
+h2 {
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 78px;
+    color: rgba(33, 33, 33, 1);
+}
+
+.span {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(100, 100, 100, 1);
+}
+
+.hero__btns{
+    background: rgba(55, 128, 107, 1);
+}
+

@@ -1,0 +1,79 @@
+.service__body {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.service__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.servise__paragraph {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(100, 100, 100);
+    margin-bottom: -50px;
+}
+
+.servise__head {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(33, 33, 33, 1);
+}
+
+.servise__wrapper {
+    display: flex;
+    gap: 37px;
+}
+
+.servise__collection {
+    display: flex;
+    padding: 30px 21px 25px 37px;
+    border-radius: 60px 0px 60px 0px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.14);
+    width: 30%;
+    gap: 20px;
+    transition: 2s;
+}
+
+.servise__collection:hover {
+    cursor: pointer;
+    background: rgba(202, 168, 146, 1);
+    color: white;
+}
+
+
+
+.lorem__p {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(33, 33, 33, 1);
+    margin-top: -1px;
+}
+.lorem__p:hover{
+    color: white;
+}
+
+.lorem__text {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: rgb(100, 100, 100);
+    margin-top: -2px;
+}
+.servise__collection:hover,
+.servise__collection:hover .servise__paragraph,
+.servise__collection:hover .lorem__p,
+.servise__collection:hover .lorem__text {
+    color: white;
+}
